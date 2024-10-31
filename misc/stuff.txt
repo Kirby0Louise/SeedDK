@@ -1,0 +1,5 @@
+Misc docs/utils
+
+https://www.vg-resource.com/thread-43029-post-683451.html
+https://github.com/periander/PSArcTool/tree/master/PSArcTool
+https://github.com/Liquid-S/OFS3-TOOL

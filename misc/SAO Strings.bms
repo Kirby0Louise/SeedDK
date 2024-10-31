@@ -1,0 +1,17 @@
+# SAO OFS3 String BMS Script
+# (C) aluigi 2017
+# Sourced by Kirby0Louise from https://www.zenhax.com/viewtopic.php@t=6893.html
+
+get NAME basename
+string NAME + ".txt"
+idstring "OFS3"
+get BASE_OFF long
+get DUMMY long
+get DATA_SIZE long
+get STRINGS long
+for i = 0 < STRINGS
+    get OFFSET long
+    get DUMMY long
+    math OFFSET + BASE_OFF
+    slog NAME OFFSET -1
+next i

@@ -16,5 +16,5 @@ Regardless, this doc is all the currently known information on how to unpack the
 
 ## Misc
 
-Archives and files always seem 8 byte aligned.
+Archives and files always seem 4-8 byte aligned.
 

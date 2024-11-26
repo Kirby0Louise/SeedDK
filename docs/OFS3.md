@@ -11,12 +11,11 @@ Regardless, this doc is all the currently known information on how to unpack the
 0x8 | 0x2 | ARCHIVE_TYPE | Archive type.  0 = parent archive?, 1 = child archive? (LE)
 0xA | 0x2 | ARCHIVE_CONFIG | Archive configuration (flags)
 0xC | 0x4 | NON_HEADER_SIZE | Size of rest of file (file size - HEADER_SIZE) (LE)
-0x10 | 0x4 | NUM_FILES | Number of files in archive (LE)
+0x10 | 0x4 | NUM_FILES | Number of files in archive (LE).  Includes invalid files with null filename, which are skipped on unpack
 0x14 | 0x8 * NUM_FILES | FILE_OFFSET_AND_SIZE_TABLE | Table of file offsets and sizes.  Offsets are from after header (add 0x10 to value to find true address in file) (LE)
 0x14 + SIZE_OF(FILE_OFFSET_AND_SIZE_TABLE) | Varies | FILE_DATA | File Data
 NON_HEADER_SIZE + 0x10 | Varies | FILE_NAME_TABLE | File names of each entry in archive
 
 ## Misc
 
-Archives and files always seem 4-8 byte aligned.  Sometimes NUM_FILES is not correct, may be related to archives with strings.
-
+Archives and files always seem 4-8 byte aligned.

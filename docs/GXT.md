@@ -28,6 +28,16 @@ GXT is a texture format used by the PS Vita.  It is a "1st party" texture format
 0x3C | 0x2 | NUM_MIPMAPS | Number of mipmaps + 1 (LE)
 0x3E | 0x2 | PADDING2 | Padding
 
+## Texture Type
+
+Texture types work as follows:
+
+- Linear - Textures are stored in rows of pixels (Todo - is this used with S3T?).  This seems to be the primary format of SAO HF.  It's also used for some of the older [TM2 textures.](https://github.com/Kirby0Louise/SeedDK/blob/main/docs/TM2.md)
+- Swizzled - Textures should be rendered out using the [standard swizzle](https://logins.github.io/graphics/2020/09/20/D3D12TexturesPart2.html).  Each S3T block represents one position in the Z-order curve.  (Todo - can paletted textures use this?  If so, how does Z-ordering work with those?)
+- Cube - Unknown, not used by SAO HF?
+- Tiled - Unknown, not used by SAO HF?
+- Linear Strided - Unknown, not used by SAO HF?
+
 ## Misc
 
 SAO HF uses an optional "BUV" section of the header, which changes some decoding behavior.  It is currently unknown exactly how this works, but some possible effects include scrolling and megatexture.

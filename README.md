@@ -19,6 +19,6 @@ Legend -
 | OFS3 Unpack | 🟨 | 🟨 | 🟨 | 🟨 | ❌ | 🟨 |
 | Basic Text Editing | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
 | Script Editing | 🟨 | ❌ | 🟨 | 🟨 | ❌ | ❌ |
-| Texture Editing | 🟨 | 🟨 | 🟨 | 🟨 | ❌ | ✅ |
+| Texture Editing | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
 | Model Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Level Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |

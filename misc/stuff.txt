@@ -1,5 +1,9 @@
-Misc docs/utils
+Misc docs/utils, and citations
 
 https://www.vg-resource.com/thread-43029-post-683451.html
 https://github.com/periander/PSArcTool/tree/master/PSArcTool
 https://github.com/Liquid-S/OFS3-TOOL
+https://github.com/paul-hedrick/psarc
+https://github.com/pmbonneau/OFS3-Tool
+https://www.psdevwiki.com/vita/index.php/GXT
+https://openkh.dev/common/tm2.html

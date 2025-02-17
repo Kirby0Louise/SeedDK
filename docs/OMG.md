@@ -26,3 +26,4 @@ OMGs encode a table of properties of the model.  Each entry in the property tabl
 
 ## Misc 
 
+- [value] 0x80 0x00 0x00 followed by [length] (LE) seems to be how all parts are broken down.  [value] is likely a type ID or something.

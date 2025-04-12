@@ -22,3 +22,8 @@ Legend -
 | Texture Editing | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
 | Model Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Level Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Skill Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Sword Skill Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Quest Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Shader Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Assembly Injection | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |

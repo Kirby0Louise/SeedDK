@@ -31,7 +31,7 @@ Shapes are the highest level components of OMG model files.  They consist of sev
 | Address | Size | Variable Name | Description
 |--|--|--|--|
 0x0 | 0x2 | SHAPE_PROPERTY_ID | Shape Property ID (starts at 3?)
-0x2 | 0x2 | SHAPE_PROPERTY_MAGIC | Magic? (0x24 0x00)
+0x2 | 0x2 | SHAPE_PROPERTY_TREE_DEPTH | Tree Depth? (0x24 0x00)
 0x4 | 0x4 | SHAPE_PROPERTY_LENGTH | Length of property (LE)
 0x8 | 0x4 | UNKNOWN1 | Unknown.  Usually 0x20
 0xC | 0x4 | UNKNOWN2 | Unknown.  Usually 0x20

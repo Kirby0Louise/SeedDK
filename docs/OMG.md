@@ -2,6 +2,8 @@
 
 OMG is an model format used by SAO HF.  It is likely a developer (Aquria) specific model format based on the names of properties found in the file.  The files do not seem to carry this extenion, so the name was derived from the magic found inside them.  The M likely stands for "Model"
 
+OMGs are laid out in a tree based format.  See below for more details.
+
 
 | Address | Size | Variable Name | Description
 |--|--|--|--|
@@ -36,9 +38,9 @@ Shapes are the highest level components of OMG model files.  They consist of sev
 0x8 | 0x4 | UNKNOWN1 | Unknown.  Usually 0x20
 0xC | 0x4 | UNKNOWN2 | Unknown.  Usually 0x20
 0x10 | Varies | SHAPE_PROPERTY_NAME_AND_DATA | Plaintext name of property, null terminated, data follows
-0x10 + sizeof(SHAPE_PROPERTY_NAME) | 0x4 | SHAPE_HASH_MAGIC | Magic that indicates hash????
-0x14 + sizeof(SHAPE_PROPERTY_NAME) | 0x4 | SHAPE_HASH_SIZE | Hash size???? (LE)
-0x18 + sizeof(SHAPE_PROPERTY_NAME) | Varies | SHAPE_HASH | Hash???? Tiger192????
+0x10 + sizeof(SHAPE_PROPERTY_NAME_AND_DATA) | 0x4 | SHAPE_HASH_MAGIC | Magic that indicates hash????
+0x14 + sizeof(SHAPE_PROPERTY_NAME_AND_DATA) | 0x4 | SHAPE_HASH_SIZE | Hash size???? (LE)
+0x18 + sizeof(SHAPE_PROPERTY_NAME_AND_DATA) | Varies | SHAPE_HASH | Hash???? Tiger192????
 
 ## ID Assignment
 

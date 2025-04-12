@@ -6,7 +6,7 @@ OMG is an model format used by SAO HF.  It is likely a developer (Aquria) specif
 | Address | Size | Variable Name | Description
 |--|--|--|--|
 0x0 | 0x4 | MAGIC | OMG Magic ("OMG.")
-0x4 | 0x4 | FILE_VERSION | OMG Version.  SAO HF uses "00.1"
+0x4 | 0x4 | FILE_VERSION | OMG Version.  SAO HF uses 1.00 (LE)
 0x8 | 0x8 | HEADER_PADDING | Padding/Unknown
 0x10 | 0x4 | UNKNOWN1 | Unknown
 0x14 | 0x4 | NON_HEADER_SIZE | Size of rest of file (file size - HEADER_SIZE) (LE)

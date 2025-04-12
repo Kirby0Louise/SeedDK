@@ -40,6 +40,24 @@ Shapes are the highest level components of OMG model files.  They consist of sev
 0x14 + sizeof(SHAPE_PROPERTY_NAME) | 0x4 | SHAPE_HASH_SIZE | Hash size???? (LE)
 0x18 + sizeof(SHAPE_PROPERTY_NAME) | Varies | SHAPE_HASH | Hash???? Tiger192????
 
+## ID Assignment
+
+IDs are assigned sequentially by evaluating an entire tree to each of its leaves.  For example, if a tree structure exists like this:
+
+- root (ID 2)
+  - branch1 (ID 3)
+    - branch1_1 (ID 4)
+      - leaf1_1_1 (ID 5)
+      - leaf1_1_2 (ID 6)
+      - leaf1_1_3 (ID 7)
+    - branch1_2 (ID 8)
+      - leaf1_2_1 (ID 9)
+      - leaf1_2_2 (ID 10)
+  - branch2 (ID 11)
+    - leaf2_1 (ID 12)
+  - branch3 (ID 13)
+  - branch4 (ID 14)
+
 ## Misc 
 
 - [value] 0x80 0x00 0x00 followed by [length] (LE) seems to be how all parts are broken down.  [value] is likely a type ID or something.

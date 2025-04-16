@@ -1,3 +1,5 @@
+# EVERYTHING HERE IS A MAJOR WIP!!
+
 # SeedDK
 SeedDK is a repository for research, reverse engineering, tooling and editors for Sword Art Online:  Hollow Fragment.
 The name is clever too.
@@ -19,7 +21,7 @@ Legend -
 | OFS3 Unpack | 🟨 | 🟨 | 🟨 | 🟨 | ❌ | 🟨 |
 | Basic Text Editing | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
 | Script Editing | 🟨 | ❌ | 🟨 | 🟨 | ❌ | ❌ |
-| Texture Editing | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Texture Editing | ✅* | ✅* | ✅* | ✅* | ❌ | ✅ |
 | Model Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Level Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Skill Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -27,3 +29,5 @@ Legend -
 | Quest Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Shader Editing | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Assembly Injection | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+* PVRTC2 textures are currently handled with Imagination's PVRTexTool, a free tool external to SeedDK.  There are plans to implement native PVRTC2 decode in the future

@@ -1,0 +1,11 @@
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\bin\Debug\VitaGXTUtil.exe.config
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\bin\Debug\VitaGXTUtil.exe
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\bin\Debug\VitaGXTUtil.pdb
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\bin\Debug\VitaGXTUtil.xml
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\obj\Debug\VitaGXTUtil.vbprojAssemblyReference.cache
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\obj\Debug\VitaGXTUtil.Resources.resources
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\obj\Debug\VitaGXTUtil.vbproj.GenerateResource.cache
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\obj\Debug\VitaGXTUtil.vbproj.CoreCompileInputs.cache
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\obj\Debug\VitaGXTUtil.exe
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\obj\Debug\VitaGXTUtil.xml
+C:\Users\darkm\source\repos\VitaGXTUtil\VitaGXTUtil\obj\Debug\VitaGXTUtil.pdb

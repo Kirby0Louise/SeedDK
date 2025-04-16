@@ -1,0 +1,12 @@
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\bin\Debug\SAOHFUnpackOSF3.exe.config
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\bin\Debug\SAOHFUnpackOSF3.exe
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\bin\Debug\SAOHFUnpackOSF3.pdb
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\bin\Debug\SAOHFUnpackOSF3.xml
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\obj\Debug\SAOHFUnpackOSF3.vbprojAssemblyReference.cache
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\obj\Debug\SAOHFUnpackOSF3.frmMain.resources
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\obj\Debug\SAOHFUnpackOSF3.Resources.resources
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\obj\Debug\SAOHFUnpackOSF3.vbproj.GenerateResource.cache
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\obj\Debug\SAOHFUnpackOSF3.vbproj.CoreCompileInputs.cache
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\obj\Debug\SAOHFUnpackOSF3.exe
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\obj\Debug\SAOHFUnpackOSF3.xml
+C:\Users\darkm\source\repos\SAOHFUnpackOSF3\SAOHFUnpackOSF3\obj\Debug\SAOHFUnpackOSF3.pdb

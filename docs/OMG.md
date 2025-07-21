@@ -1,3 +1,5 @@
+# OUTDATED - THIS SHOULD NOT BE RELIED ON, BUT IS HERE JUST IN CASE
+
 # SAO HF OMG Model Format
 
 OMG is an model format used by SAO HF.  It is likely a developer (Aquria) specific model format based on the names of properties found in the file.  The files do not seem to carry this extenion, so the name was derived from the magic found inside them.  The M likely stands for "Model"
@@ -15,7 +17,7 @@ OMGs are laid out in a tree based format.  See below for more details.
 
 ## Branches
 
-Branches are the highest level components of OMG model files.  .
+Branches are the highest level components of OMG model files.
 
 | Address | Size | Variable Name | Description
 |--|--|--|--|

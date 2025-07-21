@@ -49,4 +49,5 @@ Chunks are the highest level components of GMO (Vita) model files.
 ## Sources 
 
 https://web.archive.org/web/20090922200620/https://www.richwhitehouse.com/index.php?postid=34
+
 https://squall-leonhart.net/ff-wiki/PSP/GMO_Format.html
